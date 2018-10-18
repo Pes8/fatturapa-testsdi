@@ -57,6 +57,7 @@ return [
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
+            'port'     => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'testsdi'),
             'username' => env('DB_USERNAME', 'www-data'),
             'password' => env('DB_PASSWORD', 'www-data'),
